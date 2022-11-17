@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Agence Catalog</title>
+</head>
+<body bgcolor="#b3fff0">
+  
+  <table 
+  align="center" 
+  cellpadding="10" 
+  cellspacing="10">
+
+    <tr>
+      <td colspan="2" bgcolor="Aliceblue" align="center">
+        <h1>Travel Agence Catalog</h1>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="320" bgcolor="Aliceblue">
+        <h2>Capadochia magic</h2>
+        <img width="320" src="images/bagan-1137015_640.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum provident nulla corrupti optio voluptatem? Molestias officia corrupti voluptatum porro ullam fugiat, consequatur aspernatur distinctio voluptate saepe dignissimos facere quibusdam est.</p>
+      </td>
+      <td bgcolor="Aliceblue">
+        <form action="tour1--step2.html">
+          <fieldset>
+            <legend>Tickets</legend>
+            <br>
+              <label>
+              Available tickets: 10 / how much do you want?
+              <input 
+                type="number"
+                min="1"
+                max="10"
+                value="1"
+                name="available-tickets">
+              </label>
+          </fieldset><br>
+
+          <fieldset>
+            <br>
+            <legend>Period</legend>
+            <label>
+              Departure date <br>
+              <input type="date" name="departure-date">
+            </label> <br>
+
+            <label>
+              Arrival date <br>
+            <input type="date" name="arrival-date">
+            </label>
+          </fieldset>
+
+          <hr>
+          <p align="right">
+            <button name="lets-go">LET'S GO!!! <img align="middle" src="images/forward-icon.png" alt=""> </button>
+          </p>
+       </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="320" bgcolor="Aliceblue">
+        <h2>Beach island</h2>
+        <img width="320" src="images/beach-1236581_640.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum provident nulla corrupti optio voluptatem? Molestias officia corrupti voluptatum porro ullam fugiat, consequatur aspernatur distinctio voluptate saepe dignissimos facere quibusdam est.</p>
+      </td>
+
+      <td bgcolor="Aliceblue">
+        <form action="tour2--step2.html">
+          <fieldset>
+            <legend>Accomodation</legend> <br>
+            <label>Type of accomodation</label>
+            <input type="radio" name="accomodation" required />Hotel
+            <input type="radio" name="accomodation" required/>Bungalow <br><br>
+            <label>How many nights?</label>
+
+            <select name="nights">
+              <option>7 nights</option>
+              <option>10 nights</option>
+            </select><br><br>
+
+            <label>How many rooms?</label>
+            <select name="rooms">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </fieldset><br>
+
+          <fieldset><br>
+            <legend>Period</legend>
+            <label>
+                Departure date <br>
+            <input type="date" name="departure-date">
+            </label> <br>
+
+            <label>
+                Arrival date <br>
+            <input type="date" name="arrival-date">
+            </label>
+          </fieldset>
+
+          <p align="right">
+            <button name="lets-go">LET'S GO!!! <img align="middle" src="images/forward-icon.png" alt=""> </button>
+          </p>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="320" bgcolor="Aliceblue">
+        <h2>The dock of memories</h2>
+        <img width="320" src="images/acropolis-2725918_640.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum provident nulla corrupti optio voluptatem? Molestias officia corrupti voluptatum porro ullam fugiat, consequatur aspernatur distinctio voluptate saepe dignissimos facere quibusdam est.</p>
+      </td>
+
+      <td bgcolor="Aliceblue">
+        <form action="tour3--step2.html">
+          <fieldset>
+            <legend>Tickets</legend><br>
+            <label>Available tickets: 20 / how much do you want?
+            </label>
+            <input type="number" min="1" max="20" value="1" name="available-tickets" /><br><br>
+            <label>Families with children</label>
+            <input type="radio" name="children" required>Yes
+            <input type="radio" name="children" required>No
+          </fieldset><br>
+    
+          <fieldset>
+           <br>
+            <legend>Period</legend>
+            <label>Departure date <br>
+            <input type="date" name="departure-date">
+            </label> <br>
+            <label>
+             Arrival date <br>
+             <input type="date" name="arrival-date">
+            </label>
+          </fieldset>
+           <p align="right">
+            <button name="lets-go">LET'S GO!!! <img align="middle" src="images/forward-icon.png" alt=""> </button>
+           </p>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="320" bgcolor="Aliceblue">
+        <h2>Cultural trip</h2>
+        <img width="320" src="images/taj-mahal-866692_640.jpg" alt="">
+        <h3>Trip schedule</h3>
+        <ol>
+          <li><b>Day 1</b> - Lorem, ipsum dolor.</li>
+          <li><b>Day 2</b> - Vitae, modi deleniti!</li>
+          <li><b>Day 3</b> - Praesentium, id sint.</li>
+          <li><b>Day 4</b> - Nihil, ducimus labore!</li>
+        </ol>
+      </td>
+
+      <td bgcolor="Aliceblue">
+        <form action="tour4--step2.html">
+          <fieldset>
+            <legend>Transport</legend>
+            <label>Type transport</label>
+            <select name="type-transport">
+              <option>By bus</option>
+              <option>By plain</option>
+            </select><br><br>
+            <label>Departure from</label>
+            <select name="departure-from">
+              <option>Chisinau</option>
+              <option>Balti</option>
+              <option>Cahul</option>
+            </select>
+          </fieldset><br>
+
+          <fieldset>
+            <br>
+            <legend>Period</legend>
+            <label>
+              Departure date <br>
+              <input type="date" name="departure-date">
+            </label> <br>
+            <label>
+              Arrival date <br>
+              <input type="date" name="arrival-date">
+            </label>
+          </fieldset>
+
+          <p align="right">
+            <button name="lets-go">LET'S GO! <img align="middle" src="images/forward-icon.png" alt=""> </button>
+          </p>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td width="320" bgcolor="Aliceblue">
+        <h2>Santorini love</h2>
+        <img width="320" src="images/santorini-416136_640.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum provident nulla corrupti optio voluptatem? Molestias officia corrupti voluptatum porro ullam fugiat, consequatur aspernatur distinctio voluptate saepe dignissimos facere quibusdam est.</p>
+      </td>
+
+      <td bgcolor="Aliceblue">
+        <form action="tour5--step2.html">
+          <fieldset>
+            <legend>Transport</legend>
+            <label>Type transport</label>
+            <select name="type-transport">
+              <option>By bus</option>
+              <option>By plain</option>
+              <option>By car</option>
+            </select><br><br>
+            <label>Departure from</label>
+            <select name="departure-from">
+              <option>Chisinau</option>
+              <option>Balti</option>
+              <option>Cahul</option>
+            </select>
+          </fieldset><br>
+
+          <fieldset>
+            <legend>Accomodation</legend>
+            <label>Type of accomodation</label>
+            <input type="radio" name="accomodation" required>Hotel
+            <input type="radio" name="accomodation" required>Village house <br><br>
+            <label>How many nights?</label>
+            <select name="nights">
+              <option>10 nights</option>
+              <option>20 nights</option>
+            </select>
+          </fieldset><br>   
+
+          <fieldset>
+            <legend>Period</legend>
+            <label>
+              Departure date <br>
+              <input type="date" name="departure-date">
+            </label> <br>
+
+            <label>
+                Arrival date <br>
+                <input type="date" name="arrival-date">
+            </label>
+          </fieldset>
+
+          <p align="right">
+            <button name="lets-go">LET'S GO! <img align="middle" src="images/forward-icon.png" alt=""> </button>
+          </p>
+        </form>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
